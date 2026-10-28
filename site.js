@@ -1,0 +1,1 @@
+document.getElementById('year').textContent=new Date().getFullYear();document.querySelectorAll('nav a').forEach(a=>{if(new URL(a.href).pathname===location.pathname&&!a.hash)a.setAttribute('aria-current','page')});
